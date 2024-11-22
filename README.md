@@ -1,6 +1,9 @@
 
 Empowering The Nation Kotlin App 
 
+GitHub Website Link   melleevinn/EmpoweringTheNationWebsite 
+GitHub Android Link  melleevinn/Empowering-the-Nation-App 
+
 ## Project Description
 A platform designed to empower individuals by offering a range of online courses through a responsive website and an intuitive Android app.
 
