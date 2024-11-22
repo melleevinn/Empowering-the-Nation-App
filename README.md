@@ -20,7 +20,7 @@ A platform designed to empower individuals by offering a range of online courses
 2. Open the `AndroidApp` folder in Android Studio.
 3. Sync the Gradle files and run the app on an emulator or a connected device.
 
-###Code Log
+## Code Log
 
 1. Courses Page
 
@@ -43,9 +43,6 @@ firstAidButton.setOnClickListener {
 }
 
 
-###Issue: Crashed due to missing findViewById for firstAidButton.
-Solution: Ensured all buttons were properly initialized before adding click listeners.
-
 2. Course Details Page
 
 Implemented a detailed course page that dynamically displays data passed from the previous page.
@@ -56,9 +53,6 @@ val courseDetails = intent.getStringExtra("courseDetails")
 val features = intent.getStringArrayExtra("courseFeatures")
 courseNameTextView.text = courseName
 courseDetailsTextView.text = courseDetails
-
-Issue: NullPointerException when accessing extras without validation.
-Solution: Added null checks:
 
 
 ## Video Presentation
