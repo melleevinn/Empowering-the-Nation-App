@@ -1,0 +1,57 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Course Name -->
+        <TextView
+            android:id="@+id/courseNameTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Course Name"
+            android:textSize="24sp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:paddingBottom="10dp" />
+
+        <!-- Course Details -->
+        <TextView
+            android:id="@+id/courseDetailsTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Course Details"
+            android:textSize="18sp"
+            android:textColor="#E0E0E0"
+            android:lineSpacingExtra="4dp"
+            android:paddingBottom="20dp" />
+
+        <!-- Course Features -->
+        <TextView
+            android:id="@+id/courseFeaturesTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Course Features"
+            android:textSize="16sp"
+            android:textColor="#A9A9A9"
+            android:paddingBottom="20dp" />
+
+        <!-- Enroll Button -->
+        <Button
+            android:id="@+id/enrollButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enroll Now"
+            android:backgroundTint="#00573d"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:layout_marginTop="20dp" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,191 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#000000"
+android:padding="20dp">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <!-- Page Title -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact Us"
+        android:background="#00573d"
+        android:textColor="#FFFFFF"
+        android:padding="15dp"
+        android:textSize="20sp"
+        android:gravity="center" />
+
+    <!-- Vision Section -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Our Vision"
+        android:textColor="#00FF00"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="We envision a future where education bridges gaps and creates equal opportunities for all."
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="10dp"
+        android:gravity="center" />
+
+    <!-- Mission Section -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Our Mission"
+        android:textColor="#00FF00"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="To provide accessible, high-quality education that empowers individuals with essential skills."
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="10dp"
+        android:gravity="center" />
+
+    <!-- Contact Form -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name:"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:id="@+id/nameInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your name"
+        android:backgroundTint="#00573d"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#666666" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email:"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:id="@+id/emailInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your email"
+        android:backgroundTint="#00573d"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#666666" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Message:"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:id="@+id/messageInput"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:hint="Enter your message"
+        android:backgroundTint="#00573d"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#666666"
+        android:gravity="start"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:backgroundTint="#00573d"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="20dp" />
+
+    <!-- Confirmation Message -->
+    <TextView
+        android:id="@+id/confirmationText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#00FF00"
+        android:layout_marginTop="20dp"
+        android:textSize="16sp" />
+
+    <!-- Reviews Section -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What Our Users Say"
+        android:background="#00573d"
+        android:textColor="#FFFFFF"
+        android:padding="15dp"
+        android:layout_marginTop="30dp"
+        android:textSize="18sp"
+        android:gravity="center" />
+
+    <!-- Review 1 -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="⭐️⭐️⭐️⭐️⭐️ - Alex Mokoana: 'This app changed my life. I gained so many new skills!'"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="10dp" />
+
+    <!-- Review 2 -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="⭐️⭐️⭐️⭐️⭐️ - Tammy Woods: 'The courses are easy to follow and very informative.'"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="10dp" />
+
+    <!-- Metrics Section -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Our Achievements"
+        android:background="#00573d"
+        android:textColor="#FFFFFF"
+        android:padding="15dp"
+        android:layout_marginTop="30dp"
+        android:textSize="18sp"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="• 85% Yearly Graduation Rate"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="• 75+ Countries Reached"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="• 800+ Students Successfully Hired"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="10dp" />
+</LinearLayout>
+</ScrollView>
+

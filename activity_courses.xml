@@ -1,0 +1,109 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Header -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Our Courses"
+            android:background="#00573d"
+            android:textColor="#FFFFFF"
+            android:padding="15dp"
+            android:textSize="22sp"
+            android:gravity="center"
+            android:textStyle="bold" />
+
+        <!-- Buttons for each course -->
+        <Button
+            android:id="@+id/firstAidButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="First Aid"
+            android:backgroundTint="#1a1a1a"
+            android:textColor="#FFFFFF"
+            android:layout_margin="10dp" />
+
+        <Button
+            android:id="@+id/sewingButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sewing"
+            android:backgroundTint="#1a1a1a"
+            android:textColor="#FFFFFF"
+            android:layout_margin="10dp" />
+
+        <!-- Repeat similar buttons for all courses -->
+        <Button
+            android:id="@+id/landscapingButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Landscaping"
+            android:backgroundTint="#1a1a1a"
+            android:textColor="#FFFFFF"
+            android:layout_margin="10dp" />
+
+        <Button
+            android:id="@+id/lifeSkillsButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Life Skills"
+            android:backgroundTint="#1a1a1a"
+            android:textColor="#FFFFFF"
+            android:layout_margin="10dp" />
+
+        <!-- Add buttons for the remaining courses -->
+        <Button
+            android:id="@+id/housekeepingButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Housekeeping"
+            android:backgroundTint="#1a1a1a"
+            android:textColor="#FFFFFF"
+            android:layout_margin="10dp" />
+
+        <Button
+            android:id="@+id/eventPlanningButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Event Planning"
+            android:backgroundTint="#1a1a1a"
+            android:textColor="#FFFFFF"
+            android:layout_margin="10dp" />
+
+        <Button
+            android:id="@+id/cookingButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cooking"
+            android:backgroundTint="#1a1a1a"
+            android:textColor="#FFFFFF"
+            android:layout_margin="10dp" />
+
+        <Button
+            android:id="@+id/gardenMaintenanceButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Garden Maintenance"
+            android:backgroundTint="#1a1a1a"
+            android:textColor="#FFFFFF"
+            android:layout_margin="10dp" />
+
+        <Button
+            android:id="@+id/computerSkillsButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Basic Computer Skills"
+            android:backgroundTint="#1a1a1a"
+            android:textColor="#FFFFFF"
+            android:layout_margin="10dp" />
+
+    </LinearLayout>
+</ScrollView>
