@@ -2,7 +2,7 @@
 Empowering The Nation Kotlin App 
 
 
-1. https://youtu.be/C3Kia0csShQ?si=GLLWhgFWIz2OAgGt
+1. YouTube Video Link https://youtu.be/C3Kia0csShQ?si=GLLWhgFWIz2OAgGt
 2. GitHub Website Link  https://github.com/melleevinn/EmpoweringTheNationWebsite
 3. GitHub Android Link https://github.com/melleevinn/Empowering-the-Nation-App
  
