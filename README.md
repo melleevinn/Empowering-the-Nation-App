@@ -2,8 +2,9 @@
 Empowering The Nation Kotlin App 
 
 
-1. GitHub Website Link  https://github.com/melleevinn/EmpoweringTheNationWebsite
-2. GitHub Android Link https://github.com/melleevinn/Empowering-the-Nation-App
+1. https://youtu.be/C3Kia0csShQ?si=GLLWhgFWIz2OAgGt
+2. GitHub Website Link  https://github.com/melleevinn/EmpoweringTheNationWebsite
+3. GitHub Android Link https://github.com/melleevinn/Empowering-the-Nation-App
  
 
 ## Project Description
@@ -55,10 +56,6 @@ val courseDetails = intent.getStringExtra("courseDetails")
 val features = intent.getStringArrayExtra("courseFeatures")
 courseNameTextView.text = courseName
 courseDetailsTextView.text = courseDetails
-
-
-## Video Presentation
-Watch the demo video on [YouTube]((https://www.youtube.com/watch?v=C3Kia0csShQ)).
 
 ## Acknowledgements
 - Used libraries: RecyclerView, Retrofit, etc.
