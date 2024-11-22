@@ -58,7 +58,7 @@ courseDetailsTextView.text = courseDetails
 
 
 ## Video Presentation
-Watch the demo video on [YouTube](INSERT_VIDEO_LINK_HERE).
+Watch the demo video on [YouTube]((https://www.youtube.com/watch?v=C3Kia0csShQ)).
 
 ## Acknowledgements
 - Used libraries: RecyclerView, Retrofit, etc.
